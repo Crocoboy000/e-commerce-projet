@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Lobster&family=Noto+Sans+JP:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+}
+nav{
+    width: 100%;
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+}
+body{
+    width: 100%;
+}
+div img{
+    width: 100px;
+}
+ol li{
+    padding: 20px 0;
+    margin-left: 80px;
+}
+ol li a{
+    color: white !important;
+}
+ol li a:hover{
+    color: red !important;
+    text-shadow: 2px 1px 2px black;
+    font-size: 20px;
+}
+.fa{
+    color: white;
+    outline: none;
+}
+.fa:hover{
+    color: red;
+    border: none;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+header .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.col-6{
+    min-width: 300px;
+    position: relative;
+}
+.col-6 h1{
+    font-weight: bold;
+    color: red;
+}
+.col-6 p{
+    width: 320px;
+}
+.col-6 img{
+    width: 600px;
+    padding: 50px 0;
+    margin-left: 40px;
+}
+@media screen and (max-width:800px) {
+    .col-6{
+        margin-top:20px;
+    }
+}
+.col-6 a{
+    position: absolute;
+    left: 10px;
+}
+.title{
+    text-align: center;
+    color: white;
+    margin: 70px 0;
+}
+.pro{
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease;
+    max-width: 230px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.6);
+    transform: translateY(-10px);
+}
+.pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+.des{
+    border-top: 1px solid black;
+    padding: 10px 0;
+}
+.des span{
+    font-weight: bold;
+    font-size: 17px;
+    color: #606063;
+}
+.pro h1 {
+    font-size: 25px;
+    padding-top: 7px;
+    font-weight: bold;
+}
+.cost{
+    color: green;
+}
+.text {
+    font-size: 30px;
+}
+.text button{
+    width: max-content;
+}
+.stars .fa{ 
+    color: yellow ;
+}
+.pro a .fa{
+    color: white ;
+    outline: none;
+    margin-left: 180px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.col-2 {
+    display: inline-block;
+    width: calc(50% - 10px); /* Adjust as needed based on margin/padding */
+    margin-right: 20px; /* Adjust as needed based on spacing */
+    vertical-align: top; /* Align elements to the top */
+    font-size: 16px; /* Reset font-size to normal for children */
+}
+
+.col2{
+    width: 50%;
+}
+.pro a .fa:hover{ 
+    color: red;
+    text-shadow: 2px 1px 2px black;
+}
+p button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+p button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+p button a:hover{
+    color: white;
+}
+.customer-review {
+    background-color: gray;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 100%; /* Ensure all review boxes have the same height */
+}
+
+.customer-review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.customer-review h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 1px 2px black;
+}
+.customer-review h3 {  
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.customer-review p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(12, 1, 1, 0.815);
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.interligne {
+    margin-bottom: 20px;
+}
